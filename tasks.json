@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Acheter des fruits",
+        "description": "Acheter des pommes et des oranges",
+        "status": "done",
+        "createdAt": "2024-10-12T14:37:26.002690",
+        "updatedAt": "2024-10-12T14:38:08.841171"
+    },
+    {
+        "id": 2,
+        "name": "Task Tracker",
+        "description": "Dev une appli de suivie des taches par Hans",
+        "status": "done",
+        "createdAt": "2024-10-12T14:40:09.200846",
+        "updatedAt": "2024-10-12T14:40:09.200846"
+    },
+    {
+        "id": 3,
+        "name": "test",
+        "description": "Aucune description",
+        "status": "todo",
+        "createdAt": "2024-10-12T14:52:34.514073",
+        "updatedAt": "2024-10-12T14:52:34.514073"
+    }
+]
