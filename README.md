@@ -22,3 +22,33 @@ Task Tracker CLI est une application en ligne de commande pour gérer vos tâche
    ```bash
    git clone https://github.com/hans241/Tache-Tracker.git
    cd Tache-Tracker
+
+## Utilisation
+
+L'application s'exécute a partir de la ligne de commande. Voici quelques commandes utiles:
+
+- **Ajouter une nouvelle tâche** :
+  ```bash
+  python task_tracker.py add "Le_nom_de_la_tache" --status todo
+  
+- **Mettre à jour une tâche** :
+  ```bash
+  python task_tracker.py update 1 "Le_nom_de_la_tache_Modifier" --status in-progress
+
+- **Supprimer une tâche** :
+  ```bash
+  python task_tracker.py delete 1
+  
+- **Lister toutes les tâches** :
+  ```bash
+   python task_tracker.py list
+  
+- **Lister les tâches par statut** :
+  ```bash
+   python task_tracker.py list todo
+   python task_tracker.py list done
+   python task_tracker.py list in-progress
+
+## Contribuer
+Si vous souhaitez contribuer au projet, n'hésitez pas à soumettre une demande de tirage (pull request). Toutes les contributions sont les bienvenues !
+
